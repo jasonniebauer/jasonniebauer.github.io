@@ -5,9 +5,9 @@
       <img class="headshot" src="../assets/img/Jason-Niebauer.jpg" alt="Jason Niebauer" />
     </p>
     <!-- <p>A little bit about me...</p> -->
-    <div class="programming-languages">
+    <div class="languages">
       <div>
-        <p><b>Programming Languages</b></p>
+        <p><b>Languages</b></p>
         <ul>
           <li>CSS</li>
           <li>HTML</li>
@@ -21,13 +21,14 @@
           <li>Django</li>
           <li>FastAPI</li>
           <li>Vue.js</li>
+          <li>Vuetify</li>
         </ul>
       </div>
       <div>
-        <p><b>Other Tools</b></p>
+        <p><b>Tools</b></p>
         <ul>
           <li>Cryptography</li>
-          <li>Git</li>
+          <li>Git &amp; GitHub</li>
           <li>Pandas</li>
           <li>SQL / MySQL</li>
         </ul>
@@ -68,7 +69,7 @@ export default {
   filter: grayscale(100%);
 }
 
-.programming-languages {
+.languages {
   list-style: none;
   padding: 0;
   margin: 0;
