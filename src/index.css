@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+    /* line-height: 1.0; */
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: #FFFFFF;
+    /* padding: 2rem 0rem; */
+}
+#root {
+    min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 0.5rem; }
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.container {
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+nav {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+nav a,
+footer a {
+    font-size: 14px;
+}
+nav, section, footer {
+    padding: 2rem 0;
+}
+footer {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+h1.title {
+    font-size: 4rem;
+    line-height: 1.0;
+}
+h2.subtitle {
+    margin-bottom: 1rem;
+    line-height: 1.0;
+}
+.about-text p {
+    margin-bottom: 1rem;
+}
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.work-experience {
+    margin-bottom: 2rem;
+}
+.work-experience li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.work-experience-headline {
+    margin-bottom: 1rem;
+}
+.work-experience-inner-wrapper {
+    /* width: 100%; */
+    flex-basis: 100%;
+}
+.work-experience-company-and-date {
+    display: flex;
+    justify-content: space-between;
+}
+.work-experience-company {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+.work-experience-role {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.work-experience-dates {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 0;
+}
+.work-experience-company-logo {
+    width: 46px;
+    height: 46px;
+    border-radius: 9999px;
+    margin-right: 1rem;
+    border: 1px solid #F5F5F5
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.skills-list li {
+    background: #000000;
+    color: white;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+}
+.projects-title {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+.projects-section-header {
+    text-align: center;
+}
+.projects-subtitle {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    color: #737373;
+}
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .projects-wrapper {
+        flex-direction: row;
+    }
+}
+    
+.project {
+    flex: 1 1 calc(50% - 1rem);  /* column */
+    display: flex;
+    flex-direction: column;
+}
+.project-image {
+    background: #000000;
+    height: 20px;
+    border-radius: 0.25rem 0.2rem 0 0;
+}
+.project-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+.project-title {
+    margin-bottom: 0.25rem;
+}
+.project-date {
+    font-size: 12px;
+    color: #737373;
+}
+.project-description {
+    margin-bottom: 1.25rem;
+}
+.project-description,
+.project a {
+    font-size: 14px;
+}
+.project-tools-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+.project-tools {
+    background: #F5F5F5;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #CCCCCC;
+}
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.project-link-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    margin-right: 0.375rem;
+}
+.project a {
+    display: flex;
+    align-items: center;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.375rem 0.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: 600;
+}
+
+/* Read more about me */
+.about-read-more-link {
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out, max-height 0.2s ease-in-out;
+}
+
+.about-read-more-link:hover {
+    cursor: pointer;
+    text-decoration-style: wavy;
+}
+
+.visible {
+    opacity: 1;
+}
+
+/* Default state: hidden */
+.about-read-more {
+  opacity: 0;
+  max-height: 0; /* Ensures the element doesn't take up space when hidden */
+  overflow: hidden;
+  transition: opacity 0.2s ease-in-out, max-height 0.2s ease-in-out; /* Smooth transition for both properties */
+}
+
+/* Visible state: fades in */
+.about-read-more.visible {
+  opacity: 1;
+  max-height: 1000px; /* An arbitrary height sufficient to show content */
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: auto;
+    color: #737373;
+}

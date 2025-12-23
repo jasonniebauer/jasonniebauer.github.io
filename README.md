@@ -1,29 +1,11 @@
-# JasonNiebauer.com
+# [JasonNiebauer.com](https://jasonniebauer.com)
 
-## Project setup
-
+Run server locally
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
-
+Build for deployment
 ```
 npm run build
 ```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
