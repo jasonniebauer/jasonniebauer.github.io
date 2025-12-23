@@ -146,7 +146,7 @@ const Projects = () => {
             <div className="projects-section-header">
                 <h5 className="projects-title">My Projects</h5>
                 <h1>Check out my latest work</h1>
-                <p className="projects-subtitle">I enjoy working on a variety of projects, from simple websites to complex web applications and data pipelines. Here are a few of my favorites.</p>
+                <p className="projects-subtitle">I love tackling projects that blend robust data pipelines with intuitive, impactful interfaces. Below are some of my favorites.</p>
             </div>
             <div className="projects-wrapper">
                 {projectsList}
