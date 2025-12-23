@@ -19,16 +19,14 @@ a {
     color: #000000;
 }
 .container {
-    max-width: 928px;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 nav {
     flex: 1 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
     gap: 2rem;
 }
@@ -150,6 +148,13 @@ ol, ul {
     gap: 1rem;
 }
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 928px;
+        padding: 2rem;
+    }
+    nav{
+        justify-content: flex-end;
+    }
     .projects-wrapper {
         flex-direction: row;
     }
