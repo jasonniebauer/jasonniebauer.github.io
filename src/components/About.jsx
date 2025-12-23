@@ -10,13 +10,14 @@ const About = () => {
     return (
         <section id="about">
             <h1 className="title">Hi, I'm Jason</h1>
-            <h2 className="subtitle">Software & analytics engineer building scalable systems and data insights.</h2>
+            <h2 className="subtitle">Software & Analytics Engineer building scalable systems and data insights.</h2>
             <div className="about-text">
-                <p>I specialize in building and deploying complete production systems from the ground up. I don't just code features, I own end-to-end solutions, from initial concept through deployment, delivering real business impact with minimal oversight. With a versatile builder's mindset, I thrive in fast-moving environments where tech stacks evolve rapidly, quick integrations are critical, and data-driven insights fuel decisions. I blend full-stack development, API design and integration, data pipelines, engineering, and analytics to create scalable, interconnected systems. <span onClick={toggleVisibility} className={`about-read-more-link ${isVisible ? '' : 'visible'}`}>Read more</span></p>
+                <p>I build and ship production-grade systems that turn raw data into actionable business impact with full ownership from concept to deployment. <span onClick={toggleVisibility} className={`about-read-more-link ${isVisible ? '' : 'visible'}`}>Read more</span></p>
                 <div className={`about-read-more ${isVisible ? 'visible' : ''}`}>
-                    <p>I'm a self-taught full-stack software engineer with deep expertise in data engineering, analytics, and actionable insights. My journey began with designing and building intuitive user interfaces, which led me to master backend development to transform those UIs into full-featured applications complete with sophisticated logic, database integrations, and API connections.</p>
-                    <p>As I incorporated data collection into my projects, I developed a passion for analytics. Observing the end-to-end data lifecycle inspired me to optimize pipelines to minimize translation and cleanup efforts enabling faster, more reliable analysis.</p>
-                    <p>Today, I build scalable end-to-end systems with APIs and data pipelines that ingest and transform information from diverse sources. Using machine learning, I deliver causal inferences and predictions that drive business decisions.</p>
+                    <p>As a versatile, self-taught engineer, I combine full-stack development, API design, data pipelines, and analytics engineering to create scalable, interconnected solutions in fast-paced environments. I thrive where rapid integrations, evolving tech stacks, and data-driven decisions are the norm to deliver reliable systems with minimal oversight.</p>
+                    <p>My projects span real-time dashboards, interactive analytics platforms, and transparency tools that all feature robust data ingestion, transformation, and intuitive UIs that enable faster insights and better decisions.</p>
+                    <p>Passionate about the full data lifecycle, I design optimized pipelines that reduce cleanup overhead and accelerate analysis. Using Python, SQL, and modern tools, I transform diverse data sources into clean, modeled datasets ready for reporting, causal inference, or predictive modeling.</p>
+                    <p>Always learning and adapting, I'm excited to bring this builder's mindset to teams solving complex problems with data and code.</p>
                 </div>
             </div>
         </section>
