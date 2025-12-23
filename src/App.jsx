@@ -13,8 +13,12 @@ const App = () => {
       url: 'https://www.linkedin.com/in/jasonniebauer/',
     },
     {
-        title: 'GitHub',
-        url: 'https://github.com/jasonniebauer'
+      title: 'GitHub',
+      url: 'https://github.com/jasonniebauer'
+    },
+    {
+      title: 'Reading',
+      url: 'https://www.goodreads.com/jasonniebauer'
     },
   ];
 
