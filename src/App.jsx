@@ -16,10 +16,6 @@ const App = () => {
       title: 'GitHub',
       url: 'https://github.com/jasonniebauer'
     },
-    {
-      title: 'Reading',
-      url: 'https://www.goodreads.com/jasonniebauer'
-    },
   ];
 
   const navigationLinks = links.map(link =>
