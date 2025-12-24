@@ -58,7 +58,7 @@ const Projects = () => {
         {
             image: '',
             title: 'CryptoTab',
-            dates: 'Dec 2025',
+            dates: 'Dec 2025 - Current',
             description: 'Minimal web app with real-time prices for 26 top cryptocurrencies in USD, EUR, and GBP all powered by reliable data from three leading cryptocurrency APIs. Watch live updates refresh automatically (even in the background). Perfect for traders, investors, or anyone keeping an eye on the market without the hassle.',
             technology: [
                 'JavaScript',
@@ -84,7 +84,7 @@ const Projects = () => {
         {
             image: '',
             title: 'BitcoinSimple',
-            dates: 'Dec 2025',
+            dates: 'Dec 2025 - Current',
             description: 'Swiss Army knife API for Bitcoin data. One lightweight endpoint hub delivers real-time prices (with fiat conversion), wallet balances, transaction details, block summaries, network stats, historical charts, mempool insights, fee estimates, and halving countdowns all in clean JSON, no auth required.',
             technology: [
                 'Python',
