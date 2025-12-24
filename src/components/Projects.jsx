@@ -58,7 +58,7 @@ const Projects = () => {
         {
             image: '',
             title: 'CryptoTab',
-            dates: 'Dec 2025 - Current',
+            dates: 'Dec 2025',
             description: 'Minimal web app with real-time prices for 26 top cryptocurrencies in USD, EUR, and GBP all powered by reliable data from three leading cryptocurrency APIs. Watch live updates refresh automatically (even in the background). Perfect for traders, investors, or anyone keeping an eye on the market without the hassle.',
             technology: [
                 'JavaScript',
@@ -73,7 +73,6 @@ const Projects = () => {
                 'Full-Stack Development',
                 'UI/UX Design',
                 'Custom CSS',
-                'Automation',
                 'Error Handling & Reliability',
                 'Performance Optimization',
                 'Cloud Hosting (Netlify)',
@@ -81,6 +80,29 @@ const Projects = () => {
             ],
             website: 'https://cryptotab.app/',
             source: ''
+        },
+        {
+            image: '',
+            title: 'BitcoinSimple',
+            dates: 'Dec 2025',
+            description: 'Swiss Army knife API for Bitcoin data. One lightweight endpoint hub delivers real-time prices (with fiat conversion), wallet balances, transaction details, block summaries, network stats, historical charts, mempool insights, fee estimates, and halving countdowns all in clean JSON, no auth required.',
+            technology: [
+                'Python',
+                'FastAPI',
+                'API Development',
+                'RESTful Design',
+                'Cryptocurrency Data',
+                'Blockchain Data Handling',
+                'Data Aggregation',
+                'Data Caching',
+                'Rate Limiting',
+                'Error Handling',
+                'Open-Source Development & Maintenance',
+                'Cloud Hosting (Vercel)',
+                'Automated Deployment',
+            ],
+            website: 'https://bitcoinsimple.info/',
+            source: 'https://github.com/jasonniebauer/bitcoinsimple'
         },
         {
             image: '',
@@ -104,7 +126,26 @@ const Projects = () => {
             ],
             website: 'https://grokipedia-api.com/',
             source: 'https://github.com/dataxapi/grokipedia-api'
-        }
+        },
+        {
+            image: '',
+            title: 'DotClock',
+            dates: 'Dec 2025',
+            description: 'Minimalist web app that reimagines time in elegant segmented digits with toggles for 12 or 24-hour format and a "words" mode (e.g. FIVE SEVENTEEN). Perfect for anyone who wants clean, glanceable timekeeping with a touch of retro charm and modern flexibility.',
+            technology: [
+                'JavaScript',
+                'Custom CSS',
+                'UI/UX Design',
+                'Frontend Development',
+                'Real-Time Updates',
+                'Responsive Design',
+                'Open-Source Development & Maintenance',
+                'Cloud Hosting (Netlify)',
+                'Automated Deployment',
+            ],
+            website: 'https://dotclock.app/',
+            source: 'https://github.com/jasonniebauer/dotclock'
+        },
     ];
 
     const projectsList = myProjects.map(project =>
