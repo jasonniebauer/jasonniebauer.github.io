@@ -4,7 +4,7 @@ const Projects = () => {
             image: '',
             title: 'DOGE Insights',
             dates: 'Jan 2025 - Nov 2025',
-            description: 'Platform providing in-depth analytics, real-time dashboards, and actionable insights on the Department of Government Efficiency (DOGE). Tracks savings from cancellations of contracts, grants, leases, and regulatory reforms to promote transparency and informed discussions on government spending efficiency.',
+            description: 'Government spending analytics platform delivering in-depth analysis and real-time dashboards on the Department of Government Efficiency (DOGE). It tracks savings from canceled contracts, grants, leases, and regulatory reforms, turning complex government data into actionable insights that promote transparency, accountability, and informed public discussion around spending efficiency.',
             technology: [
                 'Python',
                 'SQL',
