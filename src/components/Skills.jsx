@@ -11,7 +11,7 @@ const Skills = () => {
         { label: 'Full-Stack Development' },
         { label: 'API Development & Integration' },
         { label: 'React.js' },
-        { label: 'JavaScript / TypeScript' },
+        { label: 'JavaScript' },
         { label: 'Database Design' },
         // Scalability & Operations
         { label: 'Cloud Hosting & Deployment' },
