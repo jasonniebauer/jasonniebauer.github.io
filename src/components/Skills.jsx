@@ -1,31 +1,34 @@
 const Skills = () => {
     const mySkills = [
-        // Core Analytics & Data Foundations
+        // Core Technical
         { label: 'Python' },
         { label: 'SQL' },
-        { label: 'Data Pipelines' },
-        { label: 'Pandas' },
-        { label: 'Data Modeling & Transformation' },
-        { label: 'Data Analytics & Insights' },
-        // Software & Systems Engineering
+        { label: 'JavaScript / React' },
         { label: 'Full-Stack Development' },
         { label: 'API Development & Integration' },
-        { label: 'React.js' },
-        { label: 'JavaScript' },
+        { label: 'Real-Time Data Processing' },
+        { label: 'Data Pipelines & Automation' },
+        { label: 'Data Integrity & Validation' },
+        // Data & Analytics
+        { label: 'Interactive Dashboard Design' },
+        { label: 'Data Visualization' },
+        { label: 'UI/UX Design' },
+        { label: 'Data Modeling & Transformation' },
+        { label: 'Pandas' },
+        { label: 'Web Scraping & Data Ingestion' },
+        // Reliability & Operations
+        { label: 'Observability & Monitoring' },
+        { label: 'Incident Response & Troubleshooting' },
+        // Software Engineering
         { label: 'Database Design' },
-        // Scalability & Operations
-        { label: 'Cloud Hosting & Deployment' },
         { label: 'Git / Version Control' },
-        { label: 'Automation' },
-        // Advanced & Specialized
+        { label: 'Cloud Hosting & Deployment' },
+        // Advanced
         { label: 'Machine Learning' },
         { label: 'Statistical Analysis' },
-        { label: 'Web Scraping & Data Ingestion' },
-        { label: 'UI/UX Design' },
-        // Domain & Process
-        { label: 'Salesforce Administration' },
+        // Process
         { label: 'Agile Methodologies' },
-        { label: 'Business Process Design' },
+        { label: 'Cross-Functional Collaboration' },
     ];
 
     const skillsList = mySkills.map(skill => 
