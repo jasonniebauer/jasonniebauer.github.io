@@ -221,6 +221,7 @@ ol, ul {
     text-decoration-style: dotted;
     opacity: 0;
     transition: opacity 0.2s ease-in-out, max-height 0.2s ease-in-out;
+    margin-left: 0.375rem;
 }
 .about-read-more-link:hover {
     cursor: pointer;
@@ -231,15 +232,15 @@ ol, ul {
 }
 /* Default state: hidden */
 .about-read-more {
-  opacity: 0;
-  max-height: 0; /* Ensures the element doesn't take up space when hidden */
-  overflow: hidden;
-  transition: opacity 0.2s ease-in-out, max-height 0.2s ease-in-out; /* Smooth transition for both properties */
+    opacity: 0;
+    max-height: 0; /* Ensures the element doesn't take up space when hidden */
+    overflow: hidden;
+    transition: opacity 0.2s ease-in-out, max-height 0.2s ease-in-out; /* Smooth transition for both properties */
 }
 /* Visible state: fades in */
 .about-read-more.visible {
-  opacity: 1;
-  max-height: 1000px; /* An arbitrary height sufficient to show content */
+    opacity: 1;
+    max-height: 1000px; /* An arbitrary height sufficient to show content */
 }
 .copyright {
     font-size: 14px;
