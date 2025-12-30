@@ -47,7 +47,6 @@ const Projects = () => {
                 'JavaScript',
                 'Full-Stack Development',
                 'Database Design',
-                'Machine Learning OCR',
                 'UI/UX Design',
                 'Cloud Hosting (Vercel)',
                 'Automated Deployment'
