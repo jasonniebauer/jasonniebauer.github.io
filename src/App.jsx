@@ -23,7 +23,7 @@ const App = () => {
     },
     {
       title: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/jasonniebauer/',
+      url: 'https://www.linkedin.com/in/jasonniebauer',
     },
     {
       title: 'GitHub',
