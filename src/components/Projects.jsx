@@ -31,7 +31,7 @@ const Projects = () => {
         {
             image: '',
             title: 'BasketHogs',
-            dates: 'Oct 2025 - Current',
+            dates: 'Oct 2025 - Dec 2025',
             description: 'Analytics hub offering advanced statistics and visualizations on the Arkansas Razorbacks men\'s basketball team. Delivers in-depth player performance tracking, shot efficiency charts, team metrics, and interactive dashboards throughout the 2025-2026 season to empower Hogs fans with data-driven insights.',
             technology: [
                 'Python',
@@ -57,7 +57,7 @@ const Projects = () => {
         {
             image: '',
             title: 'CryptoTab',
-            dates: 'Dec 2025 - Current',
+            dates: 'Dec 2025',
             description: 'Minimal web app with real-time prices for 26 top cryptocurrencies in USD, EUR, and GBP all powered by reliable data from three leading cryptocurrency APIs. Watch live updates refresh automatically (even in the background). Perfect for traders, investors, or anyone keeping an eye on the market without the hassle.',
             technology: [
                 'JavaScript',
@@ -82,31 +82,8 @@ const Projects = () => {
         },
         {
             image: '',
-            title: 'BitcoinSimple',
-            dates: 'Dec 2025 - Current',
-            description: 'Swiss Army knife API for Bitcoin data. One lightweight endpoint hub delivers real-time prices (with fiat conversion), wallet balances, transaction details, block summaries, network stats, historical charts, mempool insights, fee estimates, and halving countdowns all in clean JSON, no auth required.',
-            technology: [
-                'Python',
-                'FastAPI',
-                'API Development',
-                'RESTful Design',
-                'Cryptocurrency Data',
-                'Blockchain Data Handling',
-                'Data Aggregation',
-                'Data Caching',
-                'Rate Limiting',
-                'Error Handling',
-                'Open-Source Development & Maintenance',
-                'Cloud Hosting (Vercel)',
-                'Automated Deployment',
-            ],
-            website: 'https://bitcoinsimple.info/',
-            source: 'https://github.com/jasonniebauer/bitcoinsimple'
-        },
-        {
-            image: '',
             title: 'Grokipedia API',
-            dates: 'Nov 2025 - Current',
+            dates: 'Nov 2025 - Feb 2026',
             description: 'Unlock the power of Grokipedia\'s massive knowledge base with this free, open-source REST API providing seamless programmatic access to 1,089,057 full-text articles from xAI\'s innovative AI-powered encyclopedia. Perfect for training and fine-tuning LLMs, text analysis and natural language processing research, and integrating rich knowledge into apps, chatbots, search tools, or data pipelines.',
             technology: [
                 'Python',
@@ -123,8 +100,31 @@ const Projects = () => {
                 'Cloud Hosting (Vercel)',
                 'Automated Deployment',
             ],
-            website: 'https://grokipedia-api.com/',
+            website: '',
             source: 'https://github.com/dataxapi/grokipedia-api'
+        },
+        {
+            image: '',
+            title: 'BitcoinSimple',
+            dates: 'Dec 2025 - Feb 2026',
+            description: 'Swiss Army knife API for Bitcoin data. One lightweight endpoint hub delivers real-time prices (with fiat conversion), wallet balances, transaction details, block summaries, network stats, historical charts, mempool insights, fee estimates, and halving countdowns all in clean JSON, no auth required.',
+            technology: [
+                'Python',
+                'FastAPI',
+                'API Development',
+                'RESTful Design',
+                'Cryptocurrency Data',
+                'Blockchain Data Handling',
+                'Data Aggregation',
+                'Data Caching',
+                'Rate Limiting',
+                'Error Handling',
+                'Open-Source Development & Maintenance',
+                'Cloud Hosting (Vercel)',
+                'Automated Deployment',
+            ],
+            website: '',
+            source: 'https://github.com/jasonniebauer/bitcoinsimple'
         },
         {
             image: '',
