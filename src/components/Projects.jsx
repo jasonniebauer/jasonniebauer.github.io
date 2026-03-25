@@ -31,7 +31,7 @@ const Projects = () => {
         {
             image: '',
             title: 'BasketHogs',
-            dates: 'Oct 2025 - Dec 2025',
+            dates: 'Oct 2025 - Mar 2026',
             description: 'Analytics hub offering advanced statistics and visualizations on the Arkansas Razorbacks men\'s basketball team. Delivers in-depth player performance tracking, shot efficiency charts, team metrics, and interactive dashboards throughout the 2025-2026 season to empower Hogs fans with data-driven insights.',
             technology: [
                 'Python',
